@@ -1,0 +1,10 @@
+//contains name fun
+#include<stdio.h>
+#include<stdlib.h>
+//void name() ;
+void name()
+{	
+	printf("you are in file1 \n ");
+	printf("your name is sachin aglave \n ") ;
+	printf("hey i have done some changes and these changes are done \n ") ;
+}

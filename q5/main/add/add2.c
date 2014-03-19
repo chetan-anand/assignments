@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+main(){
+
+int x,y,z,sum;
+
+printf ("enter two numbers");
+scanf ("%d %d",&x,&y,&z);
+
+sum=x+y+z;
+printf ("output: %d",sum);
+
+
+
+}

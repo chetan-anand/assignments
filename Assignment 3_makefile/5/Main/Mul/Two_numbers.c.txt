@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+	printf("Inside Mul_Two_numbers.\n");
+	return 0;
+}

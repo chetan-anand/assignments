@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "My username is $USER and logname is $LOGNAME" > abc
+echo "I am using $SHELL shell">> abc
+echo "My home directory is $PWD" >> abc
+#echo "My operating system is $OS">> abc
+echo /proc/cpuinfo >> abc
+exit 0
+
+
+

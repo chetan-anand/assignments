@@ -1,0 +1,7 @@
+//contains age fun
+#include<iostream>
+//void age() ;
+void age()
+{	
+	cout << "you are in file3 " ;
+}

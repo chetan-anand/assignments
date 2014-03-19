@@ -1,0 +1,11 @@
+//contains name fun
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{	
+	char arr[100] ;
+	printf(" what is your name ? \n ");
+	getline(arr) ;
+	printf("your name is : %s \n" , arr ) ;
+
+}

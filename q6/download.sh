@@ -1,0 +1,21 @@
+# !/bin/bash
+direc="$(pwd)/temp"
+for (( index = 2; ; index++ ))
+do
+	file=`awk -v I=${index} 'FNR == I {print $1}' dependency`	#taking file name
+	#echo $file
+	if [[ ! -z $file ]]		#checking if the string is not null
+	then
+		search=`find / -name $file 2>/dev/null`		#searching whether file exists or not
+		#echo "Crossed search"
+		if [[ -z $search ]]
+		then
+			path=`awk -v I=${index} 'FNR == I {print $2}' dependency`	#taking path
+			wget $path/temp			#gets file form given path
+		else cp $search $direc
+		fi
+	else break
+	fi
+done
+
+

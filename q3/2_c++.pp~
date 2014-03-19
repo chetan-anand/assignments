@@ -1,0 +1,7 @@
+#include<iostream>
+
+void name()
+{
+	cout << " file : 2.cpp \n"  ;
+
+}

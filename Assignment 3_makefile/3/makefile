@@ -1,0 +1,45 @@
+all: 1 2 3 4 5 6
+
+1:1.o 
+	gcc 1.o -o 1
+	mv 1 C_EXE
+	
+1.o: 1.c 
+	gcc -c 1.c
+	
+	
+2:2.o 
+	gcc 2.o -o 2
+	mv 2 C_EXE
+	
+2.o: 2.c 
+	gcc -c 2.c
+	
+3:3.o 
+	gcc 3.o -o 3
+	mv 3 C_EXE
+	
+3.o: 3.c 
+	gcc -c 3.c
+	
+4:4.o 
+	g++ 4.o -o 4
+	mv 4 CPLUS_EXE
+	
+4.o: 4.cpp 
+	g++ -c 4.cpp
+	
+	
+5:5.o 
+	g++ 5.o -o 5
+	mv 5 CPLUS_EXE
+	
+5.o: 5.cpp 
+	g++ -c 5.cpp
+	
+6:6.o 
+	gpp 6.o -o 6
+	mv 6 CPLUS_EXE
+	
+6.o: 6.cpp 
+	g++ -c 6.cpp

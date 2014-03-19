@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+echo `find . -type f -printf '%b\t%f\n' | sort -g | tail -n 1`
+exit 0
+
+
+

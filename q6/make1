@@ -1,0 +1,9 @@
+CC=gcc
+SRCS = $(wildcard *.c)
+PROGS = $(patsubst %.c,%,$(SRCS))
+all: normal
+	echo "Done"
+normal: $(PROGS)
+%: %.c
+	$(CC) -o $@ $<
+

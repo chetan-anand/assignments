@@ -1,0 +1,17 @@
+Main_prog: Main_prog.c
+	gcc  Main_prog.c -o Main_prog
+	
+subsystem:
+	cd Add && $(MAKE)
+	
+subsystem:
+	cd Sub && $(MAKE)
+	
+subsystem:
+	cd Mul && $(MAKE)
+	
+subsystem:
+	cd Div && $(MAKE)
+	
+	
+#make -C subdir -f makefilename

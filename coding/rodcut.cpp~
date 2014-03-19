@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int cutrod(int *a,int n)
+{
+
+
+}
+
+int main()
+{
+
+
+return 
+}
+

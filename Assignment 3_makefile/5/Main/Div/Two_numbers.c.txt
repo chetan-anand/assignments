@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main()
+{
+	printf("Inside Div_Two_numbers.\n");
+	return 0;
+}
